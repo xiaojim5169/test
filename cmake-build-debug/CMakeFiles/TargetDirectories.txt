@@ -1,3 +1,4 @@
 /mnt/c/Users/26451/Desktop/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/26451/Desktop/test/cmake-build-debug/CMakeFiles/sort.dir
 /mnt/c/Users/26451/Desktop/test/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/26451/Desktop/test/cmake-build-debug/CMakeFiles/test.dir
