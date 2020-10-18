@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\dynamic.dir/objects.a
+F:\MinGW\bin\ar.exe cr CMakeFiles\dynamic.dir/objects.a @CMakeFiles\dynamic.dir\objects1.rsp
+F:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\dynamic.dir/objects.a -Wl,--no-whole-archive  -o dynamic.exe -Wl,--out-implib,libdynamic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dynamic.dir\linklibs.rsp
