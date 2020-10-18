@@ -1,4 +1,18 @@
-/home/jin/cmake-3.17.0-rc1/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/26451/Desktop/test
+"D:\Program Files (x86)\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\26451\Desktop\test
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: F:/MinGW/bin/gcc.exe
+-- Check for working C compiler: F:/MinGW/bin/gcc.exe - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: F:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: F:/MinGW/bin/g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/26451/Desktop/test/cmake-build-debug
+-- Build files have been written to: C:/Users/26451/Desktop/test/cmake-build-debug
