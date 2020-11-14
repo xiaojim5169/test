@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mid.dir/mid.c.obj"
-  "libmid.dll.a"
-  "mid.exe"
-  "mid.exe.manifest"
+  "CMakeFiles/mid.dir/mid.c.o"
+  "mid"
   "mid.pdb"
 )
 

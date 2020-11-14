@@ -8,262 +8,413 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coin">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/coin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 coin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coin/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/coin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 coin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mid">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/mid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+			<Target title="feibonaqie">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/feibonaqie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mid"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 feibonaqie"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mid/fast">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/mid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+			<Target title="feibonaqie/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/feibonaqie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mid/fast"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 feibonaqie/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+			<Target title="matrix">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test/fast">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+			<Target title="matrix/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sort">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sort/fast">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort/fast"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 array"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array/fast">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 array/fast"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/dynamic.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic/fast">
-				<Option output="C:/Users/26451/Desktop/test/cmake-build-debug/dynamic.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="f:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic/fast"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mid">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/mid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mid"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mid/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/mid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/mnt/c/Users/26451/Desktop/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/26451/Desktop/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/26451/Desktop/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/26451/Desktop/test/array.c">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/array.c">
 			<Option target="array"/>
 		</Unit>
-		<Unit filename="C:/Users/26451/Desktop/test/dynamic_program.c">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/coins.c">
+			<Option target="coin"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/dynamic_program.c">
 			<Option target="dynamic"/>
 		</Unit>
-		<Unit filename="C:/Users/26451/Desktop/test/list.c">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/list.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="C:/Users/26451/Desktop/test/mid.c">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/matrix.c">
+			<Option target="matrix"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/mid.c">
 			<Option target="mid"/>
 		</Unit>
-		<Unit filename="C:/Users/26451/Desktop/test/sort.c">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/sort.c">
 			<Option target="sort"/>
 		</Unit>
-		<Unit filename="C:/Users/26451/Desktop/test/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/斐波那契数列.c">
+			<Option target="feibonaqie"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/26451/Desktop/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

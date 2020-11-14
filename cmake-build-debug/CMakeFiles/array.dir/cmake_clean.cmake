@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/array.dir/array.c.obj"
-  "array.exe"
-  "array.exe.manifest"
+  "CMakeFiles/array.dir/array.c.o"
+  "array"
   "array.pdb"
-  "libarray.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

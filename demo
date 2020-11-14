@@ -1,0 +1,51 @@
+MATRIX-CHAIN-ORDER(p)
+    n=p.lenth-1
+    let m[1..n,1..m] and s[1..n,1..m] be new tables
+    for i=1 to n
+        m[i,i]=0
+    for l =2 to n
+        for i=1 to n-l+1
+            j=i+l-1
+            m[i,j]=∞
+            for k =i to j-1
+                q=m[i,k]+m[k+1,j]+p[i-1]*p[k]*p[j]
+                if q<m[i,j]
+                    m[i,j]=q
+                    s[i,j]=k
+    return m and s
+
+PRINT-OPTIMAL-PARENS(s,i,j)
+    if i==j
+        print "A[i]"
+    else
+        print "("
+        PRINT-OPTIMAL-PARENS(s,i,s[i,j])
+        PRINT-OPTIMAL-PARENS(s,s[i,j]+1,j)
+        print ")"
+
+MATRIX-MULTIPLY(A,B,i,j,k)   //A,B是两个符合矩阵乘法的矩阵,i,j,k分别是A的行数，列数，B的列数
+    let C to be a new matrix with i rows and k columns.
+    for x=1 to i
+        for y=1 to k
+            C[x][y]=0
+            for z=1 to j
+                c[x][y]=c[x][y]+A[x][z]*B[z][y]
+    return C
+
+
+MATRIX-CHAIN-MULTIPLY(A,s,i,j)
+    if i==j-1
+        C=MATRIX-MULTIPLY(A[i],A[j],A[i].rows,A[i]columns,A[j].columns)
+    else if i=j
+        return A[i]
+    else
+        A=MATRIX-CHAIN-MULTIPLY(A,s,i,s[i,j])           //递归调用
+        B=MATRIX-CHAIN-MULTIPLY(A,s,s[i,j]+1,j)
+        C=MATRIX-MULTIPLY(A,B,A.rows,A.columns,B.columns)
+
+    return C
+
+
+//调用
+C=MATRIX-CHAIN-MULTIPLY(A,s,1,n)
+//得到的C即为矩阵序列最终结果

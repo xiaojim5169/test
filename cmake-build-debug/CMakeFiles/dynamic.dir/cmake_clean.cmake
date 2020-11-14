@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dynamic.dir/dynamic_program.c.obj"
-  "dynamic.exe"
-  "dynamic.exe.manifest"
+  "CMakeFiles/dynamic.dir/dynamic_program.c.o"
+  "dynamic"
   "dynamic.pdb"
-  "libdynamic.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
